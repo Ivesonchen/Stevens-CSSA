@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Sign In | CSSA</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/layout.css">
+	<script src="js/signin.js"></script>
+	
+</head>
+<body id="signin">
+	<!-- Header -->
+<div id="header_container">
+	<div class="header">
+		<a class="header_logo" href="index.html"><img src="images/logo.gif" height="90" width="90"></a> <a class="header_name" href="index.html">Stevens CSSA</a>
+		 
+		<!-- Header Navigation Bar -->
+		<ul id="site-nav">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="information.html">Information</a>
+			</li>
+			<li>
+				<a href="committee.html">committee</a>
+			</li>
+			<li>
+				<a href="newsevent.html">news &amp; events</a>
+			</li>
+			<li>
+				<a href="contacts.html">contacts</a>
+			</li>
+			<li>
+				<a id="si" href="signin.html">Sign In</a>
+			</li>
+		</ul>
+	</div>
+</div>	
+<div id="signin_container">
+	<div class="signin">
+		<form action="" name="signin_form" onsubmit="signin()" method="post" id="signin_form">
+			<div class="name_wrapper">
+				<input required="" type="text" name="username" placeholder="用户名 Username">
+			</div>
+			<div class="email_warpper">
+				<input required="" type="text" name="email" placeholder="邮箱 Email">
+			</div>
+			<div class="password_warpper">
+				<input required="" type="password" name="password" placeholder="密码 Password">
+			</div>
+			<div class="submit_button">
+				<ul id="sign-nav">
+					<li><button class="sign-button" type="submit">登录 Login</button></li>
+				</ul>
+			</div>	
+		</form>
+		<button onclick="document.getElementById('id01').style.display='block'" class="signup-button">注册 Signup</button>
+	</div>
+	
+	<div id="id01" class="modal">
+	  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+	  <form class="modal-content" action="/action_page.php">
+	    <div class="container">
+	      <h1>Sign Up</h1>
+	      <p>Please fill in this form to create an account.</p>
+	      <hr>
+	      <label><b>Email</b></label>
+	      <input type="text" placeholder="Enter Email" name="email" required>
+
+	      <label><b>Password</b></label>
+	      <input type="password" placeholder="Enter Password" name="psw" required>
+
+	      <label><b>Repeat Password</b></label>
+	      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+		  
+	      <div class="clearfix">
+	        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+	        <button type="submit" class="signupbtn">Sign Up</button>
+	      </div>
+	    </div>
+	  </form>
+	</div>
+	
+</div>
+
+	
+	<!-- Footer -->
+	<div id="footer_container">
+			<div class="foot1">
+				欢迎大家来到 Stevens Institute of Technology! 享受美好的学习生活吧！ 
+			</div>
+			<div class="foot2">
+				Welcome to Stevens! Enjoy your life here!
+			</div>
+			<div class="foot3">
+				© 2018 STEVENS | CSSA. ALL RIGHT RESEVERD. 
+				<a href="privacypolicy.html">Privacy Policy</a>
+			</div>
+	</div>
+</body>
+	<script src="js/signup.js"></script>
+	
+</html>
