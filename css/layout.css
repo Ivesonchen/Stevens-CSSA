@@ -86,10 +86,12 @@ body{
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color: #5bb8ff;
+    border-radius: 3px;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
+    font-size: 15px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -127,7 +129,7 @@ button:hover {
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
-    background-color: #474e5d;
+    background-color: #778899;
     padding-top: 50px;
 }
 
@@ -180,6 +182,9 @@ hr {
 /*------contacts page------*/
 
 /*------information page------*/
+#block{
+	
+}
 
 /*------newsevent page------*/
 

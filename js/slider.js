@@ -5,8 +5,8 @@ function showSlides() {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-	console.log(slides);
-	console.log(slides.length);
+	// console.log(slides);
+	// console.log(slides.length);
     for (i = 0; i < slides.length; i++) {
 		console.log("@");
        slides[i].style.display = "none";  
