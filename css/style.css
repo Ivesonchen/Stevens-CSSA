@@ -82,11 +82,6 @@ ul {
   .text {font-size: 11px}
 }
 
-#sign-nav li{
-	float:left;
-	margin-left:-1px;
-}
-
 #site-nav li {
 	float:left;
 	margin-left:-1px;
@@ -148,7 +143,7 @@ form {
 .sign-button {
     display: block;
     padding: 0;
-    width: 210px;
+    width: 400px;
     font-size: 15px;
     line-height: 41px;
     color: #ffffff;
@@ -164,9 +159,8 @@ form {
 }
 .signup-button {
     display: block;
-	float:right;
     padding: 0;
-    width: 190px;
+    width: 400px;
     font-size: 15px;
     line-height: 41px;
     color: #ffffff;
@@ -179,4 +173,55 @@ form {
 
 .signup-button:hover {
     background-color: #55abed;
+}
+
+.newscard {
+	margin:10px auto;
+	padding:0 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.newscard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.newscontainer {
+    padding: 2px 16px;
+}
+
+.procard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 20px 20px;
+  text-align: center;
+  font-family: arial;
+}
+
+.protitle {
+	font-size: 18px;
+}
+
+.probutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.procard a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.probutton:hover, .procard a:hover {
+  opacity: 0.7;
 }

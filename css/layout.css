@@ -178,13 +178,16 @@ hr {
 }
 
 /*------committee page------*/
-
+.profile_container{
+	margin:10px;
+	padding:auto;
+}
+.profile_container ul{
+	display:inline;
+}
 /*------contacts page------*/
 
 /*------information page------*/
-#block{
-	
-}
 
 /*------newsevent page------*/
 
